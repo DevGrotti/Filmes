@@ -10,6 +10,8 @@ public class Filme {
     private int totalDeAvaliacoes;
     private int duracaoEmMinutos;
 
+
+    // adicionando gettes e setters para cada atributo
     public String getNome() {
         return this.nome;
     }
@@ -46,6 +48,7 @@ public class Filme {
         this.duracaoEmMinutos = duracaoEmMinutos;
     }
 
+    // exibindo os valores dos atributos na tela
     public void exibeFichaTecnica(){
         System.out.println("Nome do Filme: " + nome);
         System.out.println("Ano de Lançamento: " + anoDeLancamento);
@@ -53,11 +56,13 @@ public class Filme {
         System.out.println("Incluído no plano: " + incluidoNoPlano);
     }
 
+    // adicionando um metodo para avaliar o filme
     public void avalia(double nota){
         somaDasAvaliacoes += nota;
         totalDeAvaliacoes++;
     }
 
+    // adicionando um metodo para calcular a media das avaliações
     public double pegaMedia(){
         return somaDasAvaliacoes / totalDeAvaliacoes;
     }
