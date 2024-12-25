@@ -1,20 +1,25 @@
+import br.com.alura.screenmatch.modelos.Filme;
+
+import java.sql.SQLOutput;
+
 public class Main {
     public static void main(String[] args) {
-        // novo objeto do tipo Filme
-        Filme meuFilme = new Filme();
+        // novo objeto do tipo br.com.alura.screenmatch.modelos.Filme
+        Filme favorito = new Filme();
         // instanciando um objeto
-        meuFilme.nome = "O Poderoso Chefão";
-        meuFilme.anoDeLancamento = 1970;
-        meuFilme.duracaoEmMinutos = 180;
+        favorito.setNome("The Matrix");
+        favorito.setAnoDeLancamento(1999);
+        favorito.setDuracaoEmMinutos(135);
+        favorito.setIncluidoNoPlano(true);
 
-        meuFilme.exibeFichaTecnica();
+        favorito.exibeFichaTecnica();
 
-        meuFilme.avalia(8);
-        meuFilme.avalia(5);
-        meuFilme.avalia(10);
-        System.out.println(meuFilme.somaDasAvaliacoes);
-        System.out.println(meuFilme.totalDeAvaliacoes);
-        System.out.println(meuFilme.pegaMedia());
+        favorito.avalia(9);
+        favorito.avalia(8);
+        favorito.avalia(9);
+
+        System.out.println("Média de avaliações do Filme: " + favorito.pegaMedia());
+        System.out.println("Total de avaliações do Filme: " + favorito.getTotalDeAvaliacoes());
 
 
     }
