@@ -13,6 +13,8 @@ public class Main {
         // novo objeto do tipo Filme chamado "favorito"
         Filme favorito = new Filme();
 
+        System.out.println("Teste");
+
         // instanciando um objeto
         favorito.setNome("The Matrix");
         favorito.setAnoDeLancamento(1999);
@@ -68,16 +70,8 @@ public class Main {
         listaDeFilmes.add(outroFilme);
         listaDeFilmes.add(filmeQualquer);
         System.out.println("Tamanho da lista: " + listaDeFilmes.size());
-        System.out.println("Primeiro filme: " + listaDeFilmes.get(0).getNome() + "\n");
-
-        for (int i = 0; i < listaDeFilmes.size(); i++) {
-            if (i == 0){
-                System.out.print((i+1) + "º filme: " + listaDeFilmes.get(i).getNome());
-            } else{
-                System.out.print(", " + (i+1) + "º filme: " + listaDeFilmes.get(i).getNome());
-            }
-
-        }
+        System.out.println("Primeiro filme: " + listaDeFilmes.get(0).toString() + "\n");
+        System.out.println(listaDeFilmes);
 
     }
 }
