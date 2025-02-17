@@ -11,12 +11,9 @@ public class Main {
     public static void main(String[] args) {
 
         // novo objeto do tipo Filme chamado "favorito"
-        Filme favorito = new Filme();
-
-        System.out.println("Teste");
+        Filme favorito = new Filme("The Matrix");
 
         // instanciando um objeto
-        favorito.setNome("The Matrix");
         favorito.setAnoDeLancamento(1999);
         favorito.setDuracaoEmMinutos(135);
         favorito.setIncluidoNoPlano(true);
@@ -39,8 +36,7 @@ public class Main {
         lost.setMinutosPorEpisodio(50);
         System.out.println("Duração: " + lost.getDuracaoEmMinutos());
 
-        Filme outroFilme = new Filme();
-        outroFilme.setNome("Avatar");
+        Filme outroFilme = new Filme("Avatar");
         outroFilme.setAnoDeLancamento(2023);
         outroFilme.setDuracaoEmMinutos(200);
 
@@ -59,8 +55,8 @@ public class Main {
         episodio.setTotalVisualizacoes(300);
         filtro.filtra(episodio);
 
-        var filmeQualquer = new Filme();
-        filmeQualquer.setNome("Dogville");
+        var filmeQualquer = new Filme("Dogville");
+        //filmeQualquer.setNome("Dogville");
         filmeQualquer.setDuracaoEmMinutos(200);
         filmeQualquer.setAnoDeLancamento(2003);
         filmeQualquer.avalia(10);
