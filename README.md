@@ -2,7 +2,7 @@
   <img align="right" alt="Matheus-gif" src="https://media.discordapp.net/attachments/782794257085366274/1342559528385904710/ezgif-4817e036173026.gif?ex=67ba137f&is=67b8c1ff&hm=c78c57bf5d9abb4776206afe4943b09ed3f5dec10fba8686981d042b92b3e610&=&width=180&height=180">
 </p>
 
-💻Plataforma de Streaming <br><br>
+💻**PLATAFORMA DE STREAMING** <br><br>
 
 ⚙️Um Aplicativo de Linha de comando, utilizando Programação Orientada à Objetos para gerenciar, filtrar e recomendar titulos, sejam filmes, séries, ou até músicas.
 
