@@ -11,8 +11,8 @@
 ☕Dentro do IntelliJ:
 
   • Crie objetos das classes filhas de Titulo (Filme, Serie ou Episodio)
-  • Utilize os métodos subjacentes de cada Classe para manipular os dados instanciados de cada objeto
-  ![image](https://github.com/user-attachments/assets/ef652810-abde-4f4a-aa07-7c6b64f13300)<br>
+  • Utilize os métodos subjacentes de cada Classe para manipular os dados instanciados de cada objeto <br>
+  ![image](https://github.com/user-attachments/assets/ef652810-abde-4f4a-aa07-7c6b64f13300)
   ![image](https://github.com/user-attachments/assets/75f191fb-5572-434d-9457-487e9cbf9f83)
 
 
